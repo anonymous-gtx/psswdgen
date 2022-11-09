@@ -23,4 +23,4 @@ random.shuffle(password)
 
 final_psswd = ''.join(password)
 
-print(f_psswd)
+print(final_psswd)
