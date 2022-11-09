@@ -10,8 +10,6 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 
 password = []
 
-total = nr_letters + nr_symbols + nr_numbers
-
 for i in range(1, nr_letters + 1):
     password += random.choice(letters)
     
@@ -23,6 +21,6 @@ for k in range(1, nr_numbers + 1):
 
 random.shuffle(password)
 
-f_psswd = ''.join(password)
+final_psswd = ''.join(password)
 
 print(f_psswd)
